@@ -1,0 +1,16 @@
+body{
+    background-image: url(img/night.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#heading{
+    text-align: center;
+    color: #f5576c;
+    font-size: 80px;
+}
+#beats{
+    background-color: lightseagreen;
+    border: none;
+    height: 60px;
+    width: 100px;
+}
