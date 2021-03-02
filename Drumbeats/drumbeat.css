@@ -1,4 +1,4 @@
-body{
+#body{
     background-image: url(img/night.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,9 +8,32 @@ body{
     color: #f5576c;
     font-size: 80px;
 }
-#beats{
+
+.keys{
+    text-align: center;
+    margin-top: 100px;
+}
+.key{
     background-color: lightseagreen;
-    border: none;
-    height: 60px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
+    border: 9px solid greenyellow;
+    border-radius: 20px;
+    margin-left: 20px;
+    transition: all .07s ease;
+    color:gold;
+    font-weight: 900px;
+    margin-bottom: 10px;
+    font-family:'Courier New', Courier, monospace;
+    outline: none;
+}
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+  }
+.controler{
+    color: honeydew;
+    font-weight:980;
+    font-size: 32px;
 }
